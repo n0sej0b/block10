@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+.flex-container, .flex-container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: aqua;
+    
+}
+
+.flex-container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: aquamarine;
+}
+.side{
+
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    position: relative;
+}
+
+.littlebox{
+    position: absolute;
+    background-color: brown;
+    width:300px;
+    height: 25px;
+
+
+}
+.flex-container3, .flex-container4{    
+    align-items: center;
+    height: 75px;
+    width: 150px;
+    background-color: chartreuse;
+    flex-wrap: wrap;
+    row-gap: 10px;
+} 
+
+.box1{
+    background-color: bisque;
+    width: 25vh;
+    border: 5px;
+    border-color: black;
+    border-style: dashed;
+
+
+}
+
+.flex-container5{
+display:flex;
+background-color: darkblue;
+height: 5vh;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: burlywood;
+    }
+  }
